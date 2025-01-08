@@ -49,6 +49,19 @@
   import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 </script>
 
+  <script type="module">
+    // Make Firebase config available globally
+    window.firebaseConfig = {
+      apiKey: "AIzaSyD-IRoJJVpFLgeI3n494hFeW5fA...",  // Your API key
+      authDomain: "apitestdata-e7062.firebaseapp.com",
+      projectId: "apitestdata-e7062",
+      storageBucket: "apitestdata-e7062.firebasestorage.googleapis.com",
+      messagingSenderId: "106790427950",
+      appId: "1:106790427950:web:0dab34039a5b4..."
+    };
+  </script>
+
+  <script type="module" src="script.js"></script>
 </head>
 <body>
 
@@ -62,6 +75,5 @@
   <button type="submit">Sign Up</button>
 </form>
 
-<script type="module" src="script.js"></script>
 </body>
 </html>
